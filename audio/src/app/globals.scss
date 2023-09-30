@@ -1,2 +1,48 @@
 @use 'reset';
 
+$first-color: #D87D4A;
+$second-color:#101010;
+$third-color: #F1F1F1;
+$fourth-color: #FAFAFA;
+
+.container-one{
+    background-color: #141414;
+    height: 729px;
+    font-family: 'Manrope', sans-serif;;
+
+    nav{
+        padding-left: 215px;
+
+
+        .navbar-brand{
+            color: $third-color;
+            font-weight: bold;
+            margin-right: 140px;
+            font-size: 25px;
+        }
+
+        .navbar-nav{
+
+            .nav-link{
+                color: $third-color;
+                font-size: 10px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                line-height: 25px;
+                font-weight: bold;
+                padding-right: 25px;
+            }
+
+            .nav-link:nth-child(5){
+                position: absolute;
+                right: 250px;
+            }
+        }
+    }
+
+    .divider-line{
+        border: 1px solid #979797;
+        width: 63.5%;
+        margin-left: 227px;
+    }
+}
