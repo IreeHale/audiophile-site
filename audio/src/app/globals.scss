@@ -11,13 +11,13 @@ $fourth-color: #FAFAFA;
     font-family: 'Manrope', sans-serif;;
 
     nav{
-        padding-left: 215px;
+        padding-left: 135px;
 
 
         .navbar-brand{
             color: $third-color;
             font-weight: bold;
-            margin-right: 140px;
+            margin-right: 190px;
             font-size: 25px;
         }
 
@@ -35,14 +35,59 @@ $fourth-color: #FAFAFA;
 
             .nav-link:nth-child(5){
                 position: absolute;
-                right: 250px;
+                right: 200px;
             }
         }
     }
 
     .divider-line{
         border: 1px solid #979797;
-        width: 63.5%;
-        margin-left: 227px;
+        width: 73.5%;
+        margin-left: 145px;
+    }
+
+    .product-intro{
+        position: absolute;
+        top: 300px;
+        left: 150px;
+        height: 346px;
+        width: 420px;
+
+        h1{
+            color: $third-color;
+            text-transform: uppercase;
+            font-size: 56px;
+            line-height: 58px;
+            padding: 10px 0 10px 0;
+            letter-spacing: 2px;
+        }
+
+        h2{
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 7px;
+            font-weight: thin;
+            color: #7E7878;
+        }
+
+        p{
+            color: $third-color;
+            line-height: 25px;
+            font-size: 16px;
+            padding-bottom: 10px;
+        }
+
+        button{
+            border: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: $third-color;
+            font-size: 13px;
+            height: 38px;
+            width: 130px;
+            background-color: $first-color;
+
+        }
     }
 }

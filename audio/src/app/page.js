@@ -22,6 +22,20 @@ export default function Home() {
           </div>
         </nav>
         <div className="divider-line"></div>
+        <div className="product-image">
+            <div className="product-intro">
+              <h2>new product</h2>
+              <h1>xx99 mark ii headphones</h1>
+              <p>Experience natural, lifelike and exceptional build quality made for the passionate music enthusiast.</p>
+              <button>see product</button>
+            </div>
+            <Image 
+              src="/image-hero.jpg" 
+              alt="hero image intro"
+              width={1366}
+              height={700}
+              />
+        </div>
       </div>
     </body>
   )
