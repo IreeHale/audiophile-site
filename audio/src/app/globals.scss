@@ -91,3 +91,28 @@ $fourth-color: #FAFAFA;
         }
     }
 }
+
+.container-two{
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
+    align-items: center;
+    margin-top: 37px;
+    height: 500px;
+    width: 100%;
+
+    .link-container{
+        margin-top: 100px;
+        width: 1210px;
+        height: 294px;
+        border: 1px blue solid;
+        padding: 20px;
+
+        .link{
+            border: 1px solid green;
+            height: 254px;
+            width: 350px;
+            margin: 0 auto;
+        }
+    }
+}
