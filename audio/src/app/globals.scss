@@ -115,11 +115,38 @@ $fourth-color: #FAFAFA;
 
             .shop-link{
                 background-color: #F1F1F1;
-                border: 1px solid red;
-                margin-top: 150px;
-                width: 315px;
-                height: 124px;
                 text-align: center;
+                margin-top: 123px;
+                height: 150px;
+                width: 324px;
+                border-radius: 6px;
+                padding-top: 70px;
+
+                h1{
+                    font-weight: bold;
+                    font-size: 18px;
+                    letter-spacing: 1.29px;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: $second-color;
+                    cursor: pointer;
+
+                    h2{
+                        letter-spacing: 1px;
+                        font-size: 14px;
+                        font-weight: thin;
+                    }
+                }
+
+                span{
+                    color: $first-color;
+                    font-weight: bold;
+                    font-size: 15px !important;
+                }
             }
         }
     }

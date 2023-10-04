@@ -41,17 +41,20 @@ export default function Home() {
         <div className="link-container row">
           <div className="link">
             <div className="shop-link">
-              <a><h2>Shop <span>&gt;</span></h2></a>
+            <h1>headphones</h1>
+              <a className="quick-link"><h2>Shop <span>&gt;</span></h2></a>
             </div>
           </div>
           <div className="link">
             <div className="shop-link">
-              <a><h2>Shop <span>&gt;</span></h2></a>
+            <h1>speakers</h1>
+              <a className="quick-link"><h2>Shop <span>&gt;</span></h2></a>
             </div>
           </div>
           <div className="link">
             <div className="shop-link">
-              <a><h2>Shop <span>&gt;</span></h2></a>
+            <h1>earphones</h1>
+              <a className="quick-link"><h2>Shop <span>&gt;</span></h2></a>
             </div>
           </div>
         </div>
