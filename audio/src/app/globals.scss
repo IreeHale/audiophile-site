@@ -103,16 +103,24 @@ $fourth-color: #FAFAFA;
 
     .link-container{
         margin-top: 100px;
-        width: 1210px;
-        height: 294px;
+        width: 1230px;
+        height: 354px;
         border: 1px blue solid;
-        padding: 20px;
 
         .link{
             border: 1px solid green;
-            height: 254px;
+            height: 276px;
             width: 350px;
-            margin: 0 auto;
+            margin: 25px auto;
+
+            .shop-link{
+                background-color: #F1F1F1;
+                border: 1px solid red;
+                margin-top: 150px;
+                width: 315px;
+                height: 124px;
+                text-align: center;
+            }
         }
     }
 }

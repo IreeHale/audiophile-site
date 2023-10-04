@@ -39,9 +39,21 @@ export default function Home() {
       </div>
       <div className="container-two">
         <div className="link-container row">
-          <div className="link"></div>
-          <div className="link"></div>
-          <div className="link"></div>
+          <div className="link">
+            <div className="shop-link">
+              <a><h2>Shop <span>&gt;</span></h2></a>
+            </div>
+          </div>
+          <div className="link">
+            <div className="shop-link">
+              <a><h2>Shop <span>&gt;</span></h2></a>
+            </div>
+          </div>
+          <div className="link">
+            <div className="shop-link">
+              <a><h2>Shop <span>&gt;</span></h2></a>
+            </div>
+          </div>
         </div>
       </div>
     </body>
