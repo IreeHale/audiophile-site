@@ -113,6 +113,18 @@ $fourth-color: #FAFAFA;
             width: 350px;
             margin: 25px auto;
 
+            .headphone-image{
+                position: absolute;
+                top: 930px;
+                right: 1020px;
+            }
+
+            .speaker-image{
+                position: absolute;
+                top: 930px;
+                right: 610px;
+            }
+
             .shop-link{
                 background-color: #F1F1F1;
                 text-align: center;
