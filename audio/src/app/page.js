@@ -78,7 +78,27 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="speaker-container"></div>
+        <div className="speaker-container">
+          <Image 
+            className="speaker-section"
+            src="/zyro-image.png"
+            height={750}
+            width={750}
+            quality={80}
+            alt="studio speaker image"
+          />
+          <div className="speaker-cta">
+            <h1>zx9 speaker</h1>
+            <p>Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
+            <button>see product</button>
+          </div>
+        </div>
+        <div className="second-speaker">
+          <div className="speaker2-section">
+            <h1>zx7 speaker</h1>
+            <button>see product</button>
+          </div>
+        </div>
       </div>
     </body>
   )
