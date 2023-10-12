@@ -99,6 +99,59 @@ export default function Home() {
             <button>see product</button>
           </div>
         </div>
+        <div className="earphones-section row">
+          <div className="earphones-image"></div>
+          <div className="earphones-cta">
+            <h1>yx1 earphones</h1>
+            <button>see product</button>
+          </div>
+        </div>
+
+        <div className="mark2-headphones">
+          <div className="mark2-info">
+            <h1>bringing you the <span>best</span> audio gear</h1>
+            <p>
+              Bringing you the best audio gear
+              Located at the heart of New York City, Audiophile is the premier store for high end headphones, 
+              earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration 
+              rooms available for you to browse and experience a wide range of our products. Stop by our store 
+              to meet some of the fantastic people who make Audiophile the best place to buy your portable 
+              audio equipment.
+            </p>
+          </div>
+          <Image
+            className="best-gear"
+            src="/image-best-gear.jpg"
+            height={580}
+            width={520}
+          />
+        </div>
+        <div className="footer">
+          <nav className="navbar navbar-expand-lg">
+            <a className="navbar-brand" href="#">audiophile</a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <a className="nav-link" href="#">Home</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">Headphones</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">speakers</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">earphones</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <p className="conclusion">Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open 7 days a week.</p>
+          <p className="copyright">Copyright 2024. All Rights Reserved</p>
+        </div>        
       </div>
     </body>
   )

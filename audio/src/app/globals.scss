@@ -98,42 +98,8 @@ $fourth-color: #FAFAFA;
     column-count: 1;
     align-items: center;
     margin-top: 37px;
-    height: 1600px;
+    height: 3200px;
     width: 100%;
-
-    .second-speaker{
-        height: 320px;
-        width: 1110px;
-        background-image: url('../../public/img/home/desktop/image-speaker-zx7.jpg');
-        border-radius: 6px;
-
-        .speaker2-section{
-            width: 220px;
-            height: 118px;
-            margin: 90px 0 0 90px;
-
-            h1{
-                font-weight: bold;
-                line-height: auto;
-                letter-spacing: 2px;
-                font-size: 28px;
-                text-transform: uppercase;
-            }
-
-            button{
-                border-color: $second-color;
-                background-color: none;
-                margin-top: 20px;
-                text-transform: uppercase;
-                width: 130px;
-                height: 40px;
-                font-size: 12px;
-                line-height: auto;
-                letter-spacing: 1px;
-                font-weight: 600;
-            }
-        }
-    }
 
     .speaker-container{
         height: 560px;
@@ -251,6 +217,164 @@ $fourth-color: #FAFAFA;
                     font-size: 15px !important;
                 }
             }
+        }
+    }
+
+    .second-speaker{
+        height: 320px;
+        width: 1110px;
+        background-image: url('../../public/img/home/desktop/image-speaker-zx7.jpg');
+        border-radius: 6px;
+
+        .speaker2-section{
+            width: 220px;
+            height: 118px;
+            margin: 90px 0 0 90px;
+
+            h1{
+                font-weight: bold;
+                line-height: auto;
+                letter-spacing: 2px;
+                font-size: 28px;
+                text-transform: uppercase;
+            }
+
+            button{
+                border-color: $second-color;
+                background-color: none;
+                margin-top: 20px;
+                border-width: 1px;
+                text-transform: uppercase;
+                width: 130px;
+                height: 40px;
+                font-size: 12px;
+                line-height: auto;
+                letter-spacing: 1px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .earphones-section{
+        margin-top: 70px;
+        height: 320px;
+        width: 1110px;
+
+        .earphones-image{
+            width: 540px;
+            height: 320px;
+            margin-right: 27px;
+            background-image: url('../../public/img/home/desktop/image-earphones-yx1.jpg');
+            border-radius: 6px;
+        }
+
+        .earphones-cta{
+            width: 540px;
+            height: 320px;
+            background-color: $third-color;
+            border-radius: 6px;
+            padding-top: 100px;
+            padding-left: 100px;
+            
+            h1{
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+
+            button{
+                border-color: $second-color;
+                background-color: none;
+                margin-top: 20px;
+                border-width: 1px;
+                text-transform: uppercase;
+                width: 130px;
+                height: 40px;
+                font-size: 12px;
+                line-height: auto;
+                letter-spacing: 1px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .mark2-headphones{
+        width: 1110px;
+        height: 588px;
+        margin-top: 180px;
+
+        .mark2-info{
+            width: 445px;
+            height: 295px;
+            margin-top: 160px;
+
+            h1{
+                text-transform: uppercase;
+                font-weight: 600;
+                line-height: 44px;
+                letter-spacing: 1.43px;
+                padding-bottom: 15px;
+            }
+
+            p{
+                font-size: 15px;
+                line-height: 25px;
+                font-weight: 500;
+            }
+
+            span{
+                color: $first-color;
+            }
+        }
+
+        .best-gear{
+            position: absolute;
+            top: 2820px;
+            left: 717px;
+            border-radius: 6px;
+        }
+    }
+
+    .footer{
+        height: 365px;
+        width: 100%;
+        margin-top: 195px;
+        padding: 50px;
+        background-color: $second-color;
+
+        nav{
+            .navbar-brand{
+                color: $third-color;
+                font-weight: bold;
+                margin-right: 700px;
+                font-size: 25px;
+            }
+    
+            .navbar-nav{
+    
+                .nav-link{
+                    color: $third-color;
+                    font-size: 10px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    line-height: 25px;
+                    font-weight: bold;
+                    padding-right: 25px;
+                }
+            }
+        }
+
+        .conclusion{
+            color: #7E7878;
+            font-size: 15px;
+            line-height: 25px;
+            width: 500px;
+            margin: 40px 0 60px 0;
+        }
+
+        .copyright{
+            color: #7E7878;
+            font-weight: bold;
+            font-size: 15px;
         }
     }
 }
