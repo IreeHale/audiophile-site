@@ -376,5 +376,18 @@ $fourth-color: #FAFAFA;
             font-weight: bold;
             font-size: 15px;
         }
+
+        .social-media{
+            width: 250px;
+            position: absolute;
+            left: 900px;
+            top: 3790px;
+
+            a{
+                padding-right: 25px;
+                color: $third-color;
+                cursor: pointer;
+            }
+        }
     }
 }
