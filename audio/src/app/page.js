@@ -58,7 +58,6 @@ export default function Home() {
             <button>see product</button>
           </div>
         </div>
-
         <BestGear />
         <Footer />        
       </div>

@@ -1,0 +1,175 @@
+$first-color: #D87D4A;
+$second-color:#101010;
+$third-color: #F1F1F1;
+$fourth-color: #FAFAFA;
+
+@use '../reset.scss';
+
+.container-one{
+    background-color: $second-color;
+    height: 336px;
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+
+    nav{
+        padding-left: 155px;
+        background-color: $second-color;
+    
+    
+        .navbar-brand{
+            color: $third-color;
+            font-weight: bold;
+            margin-right: 190px;
+            font-size: 25px;
+        }
+    
+        .navbar-nav{
+    
+            .nav-link{
+                color: $third-color;
+                font-size: 10px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                line-height: 25px;
+                font-weight: bold;
+                padding-right: 30px;
+            }
+    
+            .nav-link:nth-child(5){
+                position: absolute;
+                right: 200px;
+            }
+        }
+    }
+    
+    .divider-line{
+        border: 1px solid #979797;
+        width: 73.5%;
+        margin-left: 165px;
+    }
+
+    h1{
+        color: $third-color;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 100px;
+    }
+}
+.container-two{
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
+    align-items: center;
+    margin-top: 37px;
+    height: 3200px;
+    width: 100%;
+
+    .link-container{
+        margin-top: 100px;
+        width: 1230px;
+        height: 354px;
+        border: 1px white solid;
+
+        .link{
+            border: 1px solid white;
+            height: 276px;
+            width: 350px;
+            margin: 25px auto;
+
+            .headphone-image{
+                position: absolute;
+                top: 560px;
+                right: 1020px;
+            }
+
+            .speaker-image{
+                position: absolute;
+                top: 560px;
+                right: 610px;
+            }
+
+            .earphones-image{
+                position: absolute;
+                top: 560px;
+                right: 200px;
+            }
+
+            .shop-link{
+                background-color: #F1F1F1;
+                text-align: center;
+                margin-top: 123px;
+                height: 150px;
+                width: 324px;
+                border-radius: 6px;
+                padding-top: 70px;
+
+                h1{
+                    font-weight: bold;
+                    font-size: 18px;
+                    letter-spacing: 1.29px;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: $second-color;
+                    cursor: pointer;
+
+                    h2{
+                        letter-spacing: 1px;
+                        font-size: 14px;
+                        font-weight: thin;
+                    }
+                }
+
+                span{
+                    color: $first-color;
+                    font-weight: bold;
+                    font-size: 15px !important;
+                }
+            }
+        }
+    }
+
+    .mark2-headphones{
+        width: 1110px;
+        height: 588px;
+        margin-top: 180px;
+
+        .mark2-info{
+            width: 445px;
+            height: 295px;
+            margin-top: 160px;
+
+            h1{
+                text-transform: uppercase;
+                font-weight: 700;
+                line-height: 44px;
+                letter-spacing: 1.43px;
+                padding-bottom: 15px;
+                font-size: 40px;
+            }
+
+            p{
+                font-size: 15px;
+                line-height: 25px;
+                font-weight: 400;
+            }
+
+            span{
+                color: $first-color;
+            }
+        }
+
+        .best-gear{
+            position: absolute;
+            top: 1010px;
+            border-radius: 6px;
+        }
+    }
+}
