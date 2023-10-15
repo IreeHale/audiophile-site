@@ -64,9 +64,69 @@ $fourth-color: #FAFAFA;
     flex-direction: column;
     column-count: 1;
     align-items: center;
-    margin-top: 37px;
-    height: 3200px;
+    justify-items: center;
+    margin-top: 1px;
+    height: 3500px;
     width: 100%;
+    border: 2px solid red;
+
+    .studio2-headphones{
+        height: 560px;
+        width: 1110px;
+        margin: 100px 0 100px 0;
+        
+
+        .studio2-info{
+            height: 340px;
+            width: 445px;
+            position: relative;
+            top: -445px;
+            left: 620px;
+
+            h2{
+                text-transform: uppercase;
+                font-size: 14px;
+                letter-spacing: 10px;
+                color: $first-color;
+                margin-bottom: 20px;
+            }
+
+            h1{
+                font-weight: bold;
+                line-height: 44px;
+                font-size: 44px;
+                letter-spacing: 2px;
+                width: 445px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+
+            p{
+                font-size: 15px;
+                line-height: 25px;
+                color: #7E7878;
+                width: 445px;
+                margin-bottom: 20px;
+            }
+
+            button{
+                background-color: $first-color;
+                text-transform: uppercase;
+                color: $third-color;
+                border: none;
+                width: 160px;
+                height: 48px;
+                font-size: 13px;
+            }
+        }
+
+        .studio2-image{
+            height: 560px;
+            width: 540px;
+            background-image: url('../../../public/img/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg');
+            background-size: contain;
+        }
+    }
 
     .link-container{
         margin-top: 100px;
@@ -82,19 +142,19 @@ $fourth-color: #FAFAFA;
 
             .headphone-image{
                 position: absolute;
-                top: 560px;
+                top: 1280px;
                 right: 1020px;
             }
 
             .speaker-image{
                 position: absolute;
-                top: 560px;
+                top: 1280px;
                 right: 610px;
             }
 
             .earphones-image{
                 position: absolute;
-                top: 560px;
+                top: 1280px;
                 right: 200px;
             }
 
@@ -168,8 +228,68 @@ $fourth-color: #FAFAFA;
 
         .best-gear{
             position: absolute;
-            top: 1010px;
+            top: 1810px;
             border-radius: 6px;
+        }
+    }
+
+    .footer{
+        height: 365px;
+        width: 100%;
+        margin-top: 195px;
+        padding: 50px;
+        background-color: $second-color;
+
+        nav{
+            .navbar-brand{
+                color: $third-color;
+                font-weight: bold;
+                margin-right: 700px;
+                font-size: 25px;
+            }
+    
+            .navbar-nav{
+    
+                .nav-link{
+                    color: $third-color;
+                    font-size: 10px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    line-height: 25px;
+                    font-weight: bold;
+                    padding-right: 25px;
+                }
+            }
+        }
+
+        .conclusion{
+            color: #7E7878;
+            font-size: 15px;
+            line-height: 25px;
+            width: 500px;
+            margin: 40px 0 60px 0;
+        }
+
+        .copyright{
+            color: #7E7878;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .social-media{
+            width: 260px;
+            height: 50px;
+            position: absolute;
+            top: 2480px;
+            border: 1px solid blue;
+
+            
+
+            a{
+                padding-right: 25px;
+                color: $third-color;
+                cursor: pointer;
+            }
         }
     }
 }

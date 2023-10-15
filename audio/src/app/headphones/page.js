@@ -15,6 +15,15 @@ export default function headphones() {
             <h1>headphones</h1>
         </div>
         <div className="container-two">
+        <div className="studio2-headphones">
+        <div className="studio2-image"></div>
+            <div className="studio2-info">
+                <h2>new product</h2>
+                <h1>xx99 mark II headphones</h1>
+                <p>The new XX99 Mark II is the pinnacle of pristine audio. It redefines your premium headphones experience by reproducing the balanced depth and precision of studio-quality sound.</p>
+                <button>see product</button>
+            </div>
+        </div>
             <ShopLinks />
             <BestGear />
             <Footer />
