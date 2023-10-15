@@ -70,69 +70,11 @@ $fourth-color: #FAFAFA;
     width: 100%;
     border: 2px solid red;
 
-    .studio2-headphones{
-        height: 560px;
-        width: 1110px;
-        margin: 100px 0 100px 0;
-        
-
-        .studio2-info{
-            height: 340px;
-            width: 445px;
-            position: relative;
-            top: -445px;
-            left: 620px;
-
-            h2{
-                text-transform: uppercase;
-                font-size: 14px;
-                letter-spacing: 10px;
-                color: $first-color;
-                margin-bottom: 20px;
-            }
-
-            h1{
-                font-weight: bold;
-                line-height: 44px;
-                font-size: 44px;
-                letter-spacing: 2px;
-                width: 445px;
-                text-transform: uppercase;
-                margin-bottom: 20px;
-            }
-
-            p{
-                font-size: 15px;
-                line-height: 25px;
-                color: #7E7878;
-                width: 445px;
-                margin-bottom: 20px;
-            }
-
-            button{
-                background-color: $first-color;
-                text-transform: uppercase;
-                color: $third-color;
-                border: none;
-                width: 160px;
-                height: 48px;
-                font-size: 13px;
-            }
-        }
-
-        .studio2-image{
-            height: 560px;
-            width: 540px;
-            background-image: url('../../../public/img/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg');
-            background-size: contain;
-        }
-    }
-
     .link-container{
-        margin-top: 100px;
+        margin-top: 300px;
         width: 1230px;
         height: 354px;
-        border: 1px white solid;
+        border: 1px red solid;
 
         .link{
             border: 1px solid white;
@@ -142,19 +84,19 @@ $fourth-color: #FAFAFA;
 
             .headphone-image{
                 position: absolute;
-                top: 1280px;
+                top: 2030px;
                 right: 1020px;
             }
 
             .speaker-image{
                 position: absolute;
-                top: 1280px;
+                top: 2030px;
                 right: 610px;
             }
 
             .earphones-image{
                 position: absolute;
-                top: 1280px;
+                top: 2040px;
                 right: 200px;
             }
 
@@ -196,6 +138,124 @@ $fourth-color: #FAFAFA;
         }
     }
 
+    .studio1-headphones{
+        margin: 50px 0 50px 0;
+        border: 1px solid blue;
+        width: 1110px;
+        height: 560px;
+
+        .studio1-image{
+            height: 550px;
+            width: 540px;
+            position: relative;
+            left: 560px;
+            bottom: 340px;
+            background-image: url('../../../public//img/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg');
+            background-size: contain;
+            border-radius: 8px;
+
+        }
+
+        .studio1-info{
+            position: relative;
+            top: 140px;
+            left: 50px;
+            width: 445px;
+            height: 343px;
+
+            h2{
+                letter-spacing: 10px;
+                color: $first-color;
+                font-size: 14px;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+            }
+            h1{
+                text-transform: uppercase;
+                font-size: 40px;
+                line-height: 44px;
+                letter-spacing: 2px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+            p{
+                color: #7E7878;
+                font-size: 15px;
+                margin-bottom: 20px;
+                line-height: 25px;
+
+            }
+
+            button{
+                font-weight: bold;
+                font-size:13px;
+                color: $third-color;
+                border: none;
+                width: 160px;
+                text-transform: uppercase;
+                height: 48px;
+                background-color: $first-color;
+            }
+        }
+    }
+
+    .studio2-headphones{
+        margin: 50px 0 50px 0;
+        border: 1px solid blue;
+        width: 1110px;
+        height: 560px;
+
+        .studio2-image{
+            height: 550px;
+            width: 540px;
+            background-image: url('../../../public/img/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg');
+            background-size: contain;
+            border-radius: 8px;
+        }
+
+        .studio2-info{
+            position: relative;
+            bottom: 450px;
+            left: 650px;
+            width: 445px;
+            height: 343px;
+
+            h2{
+                letter-spacing: 10px;
+                color: $first-color;
+                font-size: 14px;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+            }
+            h1{
+                text-transform: uppercase;
+                font-size: 40px;
+                line-height: 44px;
+                letter-spacing: 2px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+            p{
+                color: #7E7878;
+                font-size: 15px;
+                margin-bottom: 20px;
+                line-height: 25px;
+
+            }
+
+            button{
+                font-weight: bold;
+                font-size:13px;
+                color: $third-color;
+                border: none;
+                width: 160px;
+                text-transform: uppercase;
+                height: 48px;
+                background-color: $first-color;
+            }
+        }
+    }
+
     .mark2-headphones{
         width: 1110px;
         height: 588px;
@@ -204,7 +264,7 @@ $fourth-color: #FAFAFA;
         .mark2-info{
             width: 445px;
             height: 295px;
-            margin-top: 160px;
+            margin-top: 240px;
 
             h1{
                 text-transform: uppercase;
@@ -228,7 +288,7 @@ $fourth-color: #FAFAFA;
 
         .best-gear{
             position: absolute;
-            top: 1810px;
+            top: 2410px;
             border-radius: 6px;
         }
     }
@@ -280,7 +340,7 @@ $fourth-color: #FAFAFA;
             width: 260px;
             height: 50px;
             position: absolute;
-            top: 2480px;
+            top: 3250px;
             border: 1px solid blue;
 
             
