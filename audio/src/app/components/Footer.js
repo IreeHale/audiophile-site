@@ -1,6 +1,7 @@
 import React from 'react'
+import '../globals.scss';
 
-export default function Footer() {
+function Footer() {
   return (
         <div className="footer">
             <nav className="navbar navbar-expand-lg">
@@ -48,3 +49,5 @@ export default function Footer() {
         </div>
   )
 }
+
+export default Footer
