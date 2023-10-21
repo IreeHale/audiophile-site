@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 
 //Component
 import Navbar from './components/Navbar'
