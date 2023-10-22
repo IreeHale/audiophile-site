@@ -1,0 +1,353 @@
+@use '../reset.scss';
+
+$first-color: #D87D4A;
+$second-color:#101010;
+$third-color: #F1F1F1;
+$fourth-color: #FAFAFA;
+
+
+.container-one{
+    background-color: $second-color;
+    height: 336px;
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+
+    nav{
+        padding-left: 155px;
+        background-color: $second-color;
+    
+    
+        .navbar-brand{
+            color: $third-color;
+            font-weight: bold;
+            margin-right: 209px;
+            font-size: 25px;
+        }
+    
+        .navbar-nav{
+    
+            .nav-link{
+                color: $third-color;
+                font-size: 10px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                line-height: 25px;
+                font-weight: bold;
+                padding-right: 30px;
+            }
+    
+            .nav-link:nth-child(5){
+                position: absolute;
+                right: 200px;
+            }
+        }
+    }
+    
+    .divider-line{
+        border: 1px solid #979797;
+        width: 73.5%;
+        margin-left: 165px;
+    }
+
+    h1{
+        color: $third-color;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 100px;
+    }
+}
+
+.container-two{
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
+    align-items: center;
+    justify-items: center;
+    margin-top: 1px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+
+    .studio1-headphones{
+        margin: 100px 0 50px 0;
+        width: 1110px;
+        height: 560px;
+
+        .studio1-image{
+            height: 550px;
+            width: 540px;
+            position: relative;
+            left: 560px;
+            bottom: 340px;
+            background-image: url('../../../public//img/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg');
+            background-size: contain;
+            border-radius: 8px;
+
+        }
+
+        .studio1-info{
+            position: relative;
+            top: 140px;
+            left: 50px;
+            width: 445px;
+            height: 343px;
+
+            h2{
+                letter-spacing: 10px;
+                color: $first-color;
+                font-size: 14px;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+            }
+            h1{
+                text-transform: uppercase;
+                font-size: 40px;
+                line-height: 44px;
+                letter-spacing: 2px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+            p{
+                color: #7E7878;
+                font-size: 15px;
+                margin-bottom: 20px;
+                line-height: 25px;
+
+            }
+
+            button{
+                font-weight: bold;
+                font-size:13px;
+                color: $third-color;
+                border: none;
+                width: 160px;
+                text-transform: uppercase;
+                height: 48px;
+                background-color: $first-color;
+            }
+        }
+    }
+
+    .studio2-headphones{
+        margin: 150px 0 50px 0;
+        width: 1110px;
+        height: 560px;
+
+        .studio2-image{
+            height: 550px;
+            width: 540px;
+            background-image: url('../../../public/img/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg');
+            background-size: contain;
+            border-radius: 8px;
+        }
+
+        .studio2-info{
+            position: relative;
+            bottom: 450px;
+            left: 650px;
+            width: 445px;
+            height: 343px;
+
+            h2{
+                letter-spacing: 10px;
+                color: $first-color;
+                font-size: 14px;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+            }
+            h1{
+                text-transform: uppercase;
+                font-size: 40px;
+                line-height: 44px;
+                letter-spacing: 2px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+            p{
+                color: #7E7878;
+                font-size: 15px;
+                margin-bottom: 20px;
+                line-height: 25px;
+
+            }
+
+            button{
+                font-weight: bold;
+                font-size:13px;
+                color: $third-color;
+                border: none;
+                width: 160px;
+                text-transform: uppercase;
+                height: 48px;
+                background-color: $first-color;
+            }
+        }
+    }
+
+    .link-container{
+        width: 1230px;
+        height: 354px;
+        
+
+        .link{
+            height: 276px;
+            width: 350px;
+            margin: 25px auto;
+
+            .headphone-image{
+                position: absolute;
+                top: 1980px;
+                right: 1020px;
+            }
+
+            .speaker-image{
+                position: absolute;
+                top: 1990px;
+                right: 610px;
+            }
+
+            .earphones-image{
+                position: absolute;
+                top: 1990px;
+                right: 200px;
+            }
+
+            .shop-link{
+                background-color: #F1F1F1;
+                text-align: center;
+                margin-top: 123px;
+                height: 150px;
+                width: 324px;
+                border-radius: 6px;
+                padding-top: 70px;
+
+                h1{
+                    font-weight: bold;
+                    font-size: 18px;
+                    letter-spacing: 1.29px;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: $second-color;
+                    cursor: pointer;
+
+                    h2{
+                        letter-spacing: 1px;
+                        font-size: 14px;
+                        font-weight: thin;
+                    }
+                }
+
+                span{
+                    color: $first-color;
+                    font-weight: bold;
+                    font-size: 15px !important;
+                }
+            }
+        }
+    }
+
+    .mark2-headphones{
+        width: 1110px;
+        height: 588px;
+        margin-top: 120px;
+
+        .mark2-info{
+            width: 445px;
+            height: 295px;
+            margin: 180px 0 180px 0;
+
+            h1{
+                text-transform: uppercase;
+                font-weight: 700;
+                line-height: 44px;
+                letter-spacing: 1.43px;
+                padding-bottom: 15px;
+                font-size: 40px;
+            }
+
+            p{
+                font-size: 15px;
+                line-height: 25px;
+                font-weight: 400;
+            }
+
+            span{
+                color: $first-color;
+            }
+        }
+
+        .best-gear{
+            position: relative;
+            top: -600px;
+            left: 605px;
+            border-radius: 6px;
+        }
+    }
+
+    .footer{
+        height: 365px;
+        width: 100%;
+        margin-top: 345px;
+        position: relative;
+        padding: 50px;
+        background-color: $second-color;
+
+        nav{
+            .navbar-brand{
+                color: $third-color;
+                font-weight: bold;
+                margin-right: 700px;
+                font-size: 25px;
+            }
+    
+            .navbar-nav{
+    
+                .nav-link{
+                    color: $third-color;
+                    font-size: 10px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    line-height: 25px;
+                    font-weight: bold;
+                    padding-right: 25px;
+                }
+            }
+        }
+
+        .conclusion{
+            color: #7E7878;
+            font-size: 15px;
+            line-height: 25px;
+            width: 500px;
+            margin: 40px 0 60px 0;
+        }
+
+        .copyright{
+            color: #7E7878;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .social-media{
+            width: 260px;
+            height: 50px;
+            position: relative;
+            top: -155px;
+
+            a{
+                padding-right: 25px;
+                color: $third-color;
+                cursor: pointer;
+            }
+        }
+    }
+}
