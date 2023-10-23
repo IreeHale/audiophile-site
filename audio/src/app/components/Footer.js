@@ -23,7 +23,7 @@ function Footer() {
                         <a className="nav-link" href="/speakers">speakers</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="#">earphones</a>
+                        <a className="nav-link" href="/earphones">earphones</a>
                         </li>
                     </ul>
                 </div>

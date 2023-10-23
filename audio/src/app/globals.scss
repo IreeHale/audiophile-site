@@ -127,6 +127,7 @@ $fourth-color: #FAFAFA;
                 line-height: 58px;
                 letter-spacing: 2px;
                 font-weight: 600;
+                padding-bottom: 20px;
                 text-transform: uppercase;
                 color: $fourth-color;
                 font-size: 56px;
@@ -136,6 +137,7 @@ $fourth-color: #FAFAFA;
                 font-size: 15px;
                 line-height: 25px;
                 color: $third-color;
+                padding-bottom: 20px;
             }
 
             button{
@@ -145,8 +147,8 @@ $fourth-color: #FAFAFA;
             letter-spacing: 1px;
             color: $third-color;
             font-size: 12px;
-            height: 38px;
             width: 130px;
+            height: 40px;
             background-color: $second-color;
             }
         }

@@ -13,7 +13,7 @@ export default function ShopLinks() {
                     alt=" headphones link"
                     />
                     <h1>headphones</h1>
-                    <a className="quick-link"><h2>Shop <span>&gt;</span></h2></a>
+                    <a className="quick-link" href="/headphones"><h2>Shop <span>&gt;</span></h2></a>
                 </div>
             </div>
             <div className="link">
@@ -26,7 +26,7 @@ export default function ShopLinks() {
                         alt="speaker link photo"
                     />
                     <h1>speakers</h1>
-                    <a className="quick-link"><h2>Shop <span>&gt;</span></h2></a>
+                    <a className="quick-link" href="/speakers"><h2>Shop <span>&gt;</span></h2></a>
                 </div>
             </div>
             <div className="link">
