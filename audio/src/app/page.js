@@ -17,7 +17,11 @@ export default function Home() {
             <div className="product-intro">
               <h2>new product</h2>
               <h1>xx99 mark ii headphones</h1>
-              <p>Experience natural, lifelike and exceptional build quality made for the passionate music enthusiast.</p>
+              <p>
+                Experience natural, lifelike and 
+                exceptional build quality made for the 
+                passionate music enthusiast.
+              </p>
               <button>see product</button>
             </div>
             <Image 

@@ -68,6 +68,7 @@ $fourth-color: #FAFAFA;
             letter-spacing: 7px;
             font-weight: thin;
             color: #7E7878;
+            margin-bottom: 10px;
         }
 
         p{
@@ -75,6 +76,7 @@ $fourth-color: #FAFAFA;
             line-height: 25px;
             font-size: 16px;
             padding-bottom: 10px;
+            margin: 20px 0 20px 0;
         }
 
         button{
@@ -84,8 +86,8 @@ $fourth-color: #FAFAFA;
             letter-spacing: 1px;
             color: $third-color;
             font-size: 13px;
-            height: 38px;
-            width: 130px;
+            height: 48px;
+            width: 160px;
             background-color: $first-color;
 
         }

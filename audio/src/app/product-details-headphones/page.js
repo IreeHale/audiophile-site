@@ -22,6 +22,8 @@ export default function details() {
                             It redefines your premium headphones experience by reproducing 
                             the balanced depth and precision of studio-quality sound.
                         </p>
+
+                        <h2 className="pricing">$ 2,999</h2>
                         <button className="add-to-cart">add to cart</button>
                     </div>
             </div>

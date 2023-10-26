@@ -101,6 +101,13 @@ body{
                     line-height: 25px;
     
                 }
+
+                .pricing{
+                    color: $second-color;
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
     
                 .add-to-cart{
                     font-weight: bold;
@@ -109,6 +116,7 @@ body{
                     border: none;
                     width: 160px;
                     position: relative;
+                    top: 20px;
                     left: 250px;
                     text-transform: uppercase;
                     height: 48px;
