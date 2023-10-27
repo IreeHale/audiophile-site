@@ -25,6 +25,11 @@ export default function details() {
 
                         <h2 className="pricing">$ 2,999</h2>
                         <button className="add-to-cart">add to cart</button>
+                        <div className="amount-section">
+                            <button className="subtract">-</button>
+                            <input />
+                            <button className="add">+</button>
+                        </div>
                     </div>
             </div>
         </div>
