@@ -4,6 +4,7 @@ $first-color: #D87D4A;
 $second-color:#101010;
 $third-color: #F1F1F1;
 $fourth-color: #FAFAFA;
+$fifth-color: #7E7878;
 
 
 
@@ -70,6 +71,7 @@ body{
                 background-image: url('../../../public/img/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg');
                 background-size: contain;
                 border-radius: 8px;
+                border-radius: 6px;
             }
     
             .studio2-info{
@@ -95,7 +97,7 @@ body{
                     margin-bottom: 30px;
                 }
                 p{
-                    color: #7E7878;
+                    color: $fifth-color;
                     font-size: 15px;
                     margin-bottom: 40px;
                     line-height: 25px;
@@ -111,12 +113,16 @@ body{
                 }
 
                 .amount-section{
-                    border: 1px solid red;
+                    position: relative;
+                    right: 20px;
+                    bottom: 10px;
 
                     .subtract{
                         height: 28px;
                         width: 20px;
                         border: none;
+                        position: relative;
+                        left: 25px;
                         font-weight: bold;
                         font-size: 13px;
                         background-color: $third-color;
@@ -126,6 +132,8 @@ body{
                         height: 18px;
                         width: 16px;
                         font-weight: bold;
+                        position: relative;
+                        right: 25px;
                         font-size: 13px;
                         border: none;
                         background-color: $third-color;
@@ -145,12 +153,85 @@ body{
                     color: $third-color;
                     border: none;
                     width: 160px;
+                    height: 45px;
                     position: relative;
-                    top: 20px;
-                    left: 250px;
+                    top: 36px;
+                    left: 130px;
                     text-transform: uppercase;
-                    height: 48px;
                     background-color: $first-color;
+                }
+            }
+        }
+
+        .in-the-box-section{
+            width: 1110px;
+            height: 338px;
+            border: 1px solid red;
+
+
+
+            .features-section{
+                height: 318px;
+                width: 635px;
+                padding: 10px;
+
+
+                h1{
+                    font-weight: bold;
+                    font-size: 32px;
+                    line-height: 36px;
+                    letter-spacing: 1px;
+                    margin-bottom: 20px;
+                    text-transform: uppercase;
+                }
+
+                .first-paragraph{
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: $fifth-color;
+                    width: 585px;
+                    height: 250px;
+
+                }
+
+                .second-paragraph{
+                    font-size: 15px;
+                    line-height: 25px;
+                    width: 585px;
+                    position: relative;
+                    color: $fifth-color;
+                    bottom: 122px;
+                    height: 250px;
+                }
+            }
+
+            .items-section{
+                border: 1px solid blue;
+                height: 225px;
+                width: 350px;
+                margin: 80px 0 0 20px;
+
+                h1{
+                    font-size: 32px;
+                    line-height: 35px;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                    text-transform: uppercase;
+                }
+
+                ul{
+                    li{
+                        font-size: 15px;
+                        color: $fifth-color;
+                        margin-bottom: 15px;
+
+                        span{
+                            color: $first-color;
+                            margin-right: 15px;
+                            font-weight: bold;
+                        }
+                    }
                 }
             }
         }
