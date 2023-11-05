@@ -31,6 +31,7 @@ export default function details() {
                             <button className="add">+</button>
                         </div>
                     </div>
+
                     <div className="in-the-box-section row">
                         <div className="features-section">
                             <h1>features</h1>
@@ -62,8 +63,9 @@ export default function details() {
                             </ul>
                         </div>
                     </div>
+                    <div className="preview-section"></div>
+                </div>
             </div>
-        </div>
     </body>
   )
 }

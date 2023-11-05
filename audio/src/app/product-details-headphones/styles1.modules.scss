@@ -166,8 +166,7 @@ body{
         .in-the-box-section{
             width: 1110px;
             height: 338px;
-            border: 1px solid red;
-
+            margin-top: -150px;
 
 
             .features-section{
@@ -206,7 +205,6 @@ body{
             }
 
             .items-section{
-                border: 1px solid blue;
                 height: 225px;
                 width: 350px;
                 margin: 80px 0 0 20px;
@@ -235,5 +233,13 @@ body{
                 }
             }
         }
+
+        .preview-section{
+            height: 592px;
+            width: 1110px;
+            margin-top: 130px;
+            border: 1px solid blue;
+        }
     }
+
 }
