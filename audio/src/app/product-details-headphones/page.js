@@ -63,7 +63,21 @@ export default function details() {
                             </ul>
                         </div>
                     </div>
-                    <div className="preview-section"></div>
+                    <div className="preview-section d-flex flex-wrap">
+                        <div className="mini-column d-flex flex-column">
+                            <div className="gallery-pic1"></div>
+                            <div className="gallery-pic2"></div>
+                        </div>
+                        <div className="gallery-pic3"></div>
+                    </div>
+                    <div className="other-products">
+                        <h1>you may also like</h1>
+                        <div className="also-like">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
                 </div>
             </div>
     </body>

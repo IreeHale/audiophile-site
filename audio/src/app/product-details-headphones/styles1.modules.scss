@@ -172,7 +172,7 @@ body{
             .features-section{
                 height: 318px;
                 width: 635px;
-                padding: 10px;
+                padding: 15px;
 
 
                 h1{
@@ -238,7 +238,48 @@ body{
             height: 592px;
             width: 1110px;
             margin-top: 130px;
-            border: 1px solid blue;
+
+            .mini-column{
+
+                .gallery-pic1{
+                    height: 280px;
+                    width: 445px;
+                    background-image: url('../../../public/img/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg');
+                    border-radius: 6px;
+                }
+                .gallery-pic2{
+                    height: 280px;
+                    width: 445px;
+                    margin-top: 26px;
+                    background-image: url('../../../public/img/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg');
+                    border-radius: 6px;
+                }
+            }
+
+            .gallery-pic3{
+                height: 592px;
+                width: 635px;
+                margin-left: 25px;
+                background-image: url('../../../public/img/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg');
+                border-radius: 6px;
+            }
+        }
+
+        .other-products{
+            width: 1110px;
+            height: 571px;
+            margin-top: 150px;
+            border: red solid 1px;
+            text-align: center;
+
+
+            h1{
+                font-size: 32px;
+                font-weight: bold;
+                line-height: 36px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
         }
     }
 
