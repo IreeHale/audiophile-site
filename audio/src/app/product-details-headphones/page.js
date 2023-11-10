@@ -72,10 +72,19 @@ export default function details() {
                     </div>
                     <div className="other-products">
                         <h1>you may also like</h1>
-                        <div className="also-like">
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                        <div className="also-like row">
+                            <div className="product-link1">
+                                <div className="link-image1"></div>
+                                <h1>xx99 mark i</h1>
+                            </div>
+                            <div className="product-link2">
+                                <div className="link-image2"></div>
+                                <h1>xx59</h1>
+                            </div>
+                            <div className="product-link3">
+                                <div className="link-image3"></div>
+                                <h1>zx9 speaker</h1>
+                            </div>
                         </div>
                     </div>
                 </div>

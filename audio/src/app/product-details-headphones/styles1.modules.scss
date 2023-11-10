@@ -270,15 +270,76 @@ body{
             height: 571px;
             margin-top: 150px;
             border: red solid 1px;
-            text-align: center;
 
 
             h1{
                 font-size: 32px;
                 font-weight: bold;
+                text-align: center;
                 line-height: 36px;
                 letter-spacing: 1px;
                 text-transform: uppercase;
+                margin-bottom: 50px;
+                padding-top: 20px;
+            }
+
+            .also-like{
+                border: solid green 1px;
+                margin-left: 1px;
+                height: 471px;
+                width: 1106px;
+
+                .product-link1{
+                    height: 471px;
+                    width: 350px;
+                    margin-right: 25px;
+                    border: 1px solid blue;
+
+                    .link-image1{
+                        height: 318px;
+                        width: 350px;
+                        position: relative;
+                        right: 12px;
+                        background-image: url('../../../public/img/product-xx99-mark-one-headphones/desktop/image-product.jpg');
+                        background-size: contain;
+                        border: red solid 1px;
+                    }
+                }
+
+                .product-link2{
+                    height: 471px;
+                    width: 350px;
+                    margin-right: 25px;
+                    border: 1px solid blue;
+
+                    .link-image2{
+                        height: 318px;
+                        width: 350px;
+                        position: relative;
+                        right: 12px;
+                        background-image: url('../../../public/img/product-xx59-headphones/desktop/image-product.jpg');
+                        background-size: contain;
+                        margin-right: 1px;
+                        border: red solid 1px;
+                    }
+                }
+
+                .product-link3{
+                    height: 471px;
+                    width: 350px;
+                    border: 1px solid blue;
+
+                    .link-image3{
+                        height: 318px;
+                        width: 350px;
+                        position: relative;
+                        right: 12px;
+                        background-image: url('../../../public/img/product-zx9-speaker/desktop/image-category-page-preview.jpg');
+                        background-size: contain;
+                        margin-right: 10px;
+                        border: red solid 1px;
+                    }
+                }
             }
         }
     }
