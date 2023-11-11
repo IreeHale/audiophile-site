@@ -4,6 +4,9 @@ import './styles1.modules.scss'
 
 //Components
 import Navbar from '../components/Navbar'
+import ShopLinks from '../components/ShopLinks'
+import BestGear from '../components/BestGear'
+import Footer from '../components/Footer'
 
 export default function details() {
   return (
@@ -13,6 +16,7 @@ export default function details() {
         </div>
         <div className="container-two">
             <div className="studio2-headphones">
+            <button className="go-back">Go Back</button>
                 <div className="studio2-image"></div>
                     <div className="studio2-info">
                         <h2>new product</h2>
@@ -91,6 +95,9 @@ export default function details() {
                         </div>
                     </div>
                 </div>
+                <ShopLinks />
+                <BestGear />
+                <Footer />
             </div>
     </body>
   )

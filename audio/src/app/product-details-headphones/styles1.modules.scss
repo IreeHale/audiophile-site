@@ -56,9 +56,23 @@ body{
         column-count: 1;
         align-items: center;
         margin-top: 1px;
-        height: 3200px;
+        height: 4600px;
         width: 100%;
-        border: 2px solid red;
+        overflow: hidden;
+
+        .go-back{
+            border: none;
+            background: none;
+            color: $fifth-color;
+            font-size: 15px;
+            line-height: 25px;
+            position: relative;
+            bottom: 50px;
+        }
+
+        .go-back:hover{
+            text-decoration: underline;
+        }
 
         .studio2-headphones{
             margin: 150px 0 50px 0;
@@ -377,6 +391,171 @@ body{
                         bottom: 20px;
                         left: 80px;
                     }
+                }
+            }
+        }
+
+        .link-container{
+            position: relative;
+            top: 1950px;
+            width: 1230px;
+            height: 354px;
+            
+    
+            .link{
+                height: 276px;
+                width: 350px;
+                margin: 25px auto;
+    
+                .headphone-image{
+                    position: absolute;
+                    top: 80px;
+                    right: 950px;
+                }
+    
+                .speaker-image{
+                    position: absolute;
+                    top: 80px;
+                    right: 540px;
+                }
+    
+                .earphones-image{
+                    position: absolute;
+                    top: 80px;
+                    right: 140px;
+                }
+    
+                .shop-link{
+                    background-color: #F1F1F1;
+                    text-align: center;
+                    margin-top: 123px;
+                    height: 150px;
+                    width: 324px;
+                    border-radius: 6px;
+                    padding-top: 70px;
+    
+                    h1{
+                        font-weight: bold;
+                        font-size: 18px;
+                        letter-spacing: 1.29px;
+                        text-transform: uppercase;
+                        margin-bottom: 20px;
+                    }
+    
+                    a{
+                        text-decoration: none;
+                        color: $second-color;
+                        cursor: pointer;
+    
+                        h2{
+                            letter-spacing: 1px;
+                            font-size: 14px;
+                            font-weight: thin;
+                        }
+                    }
+    
+                    span{
+                        color: $first-color;
+                        font-weight: bold;
+                        font-size: 15px !important;
+                    }
+                }
+            }
+        }
+
+        .mark2-headphones{
+            width: 1110px;
+            height: 588px;
+            margin-top: 2280px;
+    
+            .mark2-info{
+                width: 445px;
+                height: 295px;
+                margin-top: 160px;
+    
+                h1{
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    line-height: 44px;
+                    letter-spacing: 1.43px;
+                    padding-bottom: 15px;
+                    font-size: 40px;
+                }
+    
+                p{
+                    font-size: 15px;
+                    line-height: 25px;
+                    font-weight: 500;
+                }
+    
+                span{
+                    color: $first-color;
+                }
+            }
+    
+            .best-gear{
+                position: absolute;
+                top: 3500px;
+                left: 680px;
+                border-radius: 6px;
+            }
+        }
+
+        .footer{
+            height: 365px;
+            width: 100%;
+            margin-top: 375px;
+            padding: 50px;
+            background-color: $second-color;
+    
+            nav{
+                .navbar-brand{
+                    color: $third-color;
+                    font-weight: bold;
+                    margin-right: 700px;
+                    font-size: 25px;
+                }
+        
+                .navbar-nav{
+        
+                    .nav-link{
+                        color: $third-color;
+                        font-size: 10px;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        line-height: 25px;
+                        font-weight: bold;
+                        padding-right: 25px;
+                    }
+                }
+            }
+    
+            .conclusion{
+                color: #7E7878;
+                font-size: 15px;
+                line-height: 25px;
+                width: 500px;
+                margin: 40px 0 60px 0;
+            }
+    
+            .copyright{
+                color: #7E7878;
+                font-weight: bold;
+                font-size: 15px;
+            }
+    
+            .social-media{
+                width: 260px;
+                height: 50px;
+                position: absolute;
+                top: 4530px;
+    
+                
+    
+                a{
+                    padding-right: 25px;
+                    color: $third-color;
+                    cursor: pointer;
                 }
             }
         }
