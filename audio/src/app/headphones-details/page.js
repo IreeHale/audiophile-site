@@ -16,7 +16,7 @@ export default function details() {
         </div>
         <div className="container-two">
             <div className="studio2-headphones">
-            <button className="go-back">Go Back</button>
+            <a className="go-back" href="/headphones">Go Back</a>
                 <div className="studio2-image"></div>
                     <div className="studio2-info">
                         <h2>new product</h2>
