@@ -19,15 +19,14 @@ export default function details() {
             <button className="go-back">Go Back</button>
                 <div className="studio2-image"></div>
                     <div className="studio2-info">
-                        <h1>xx99 mark I headphones</h1>
+                        <h1>xx59 headphones</h1>
                         <p>
-                            As the gold standard for headphones, 
-                            the classic XX99 Mark I offers detailed and accurate audio reproduction 
-                            for audiophiles, mixing engineers, and music aficionados alike in studios 
-                            and on the go. 
+                            Enjoy your audio almost anywhere and customize it to your specific tastes 
+                            with the XX59 headphones. The stylish yet durable versatile wireless headset 
+                            is a brilliant companion at home or on the move.
                         </p>
 
-                        <h2 className="pricing">$ 1,750</h2>
+                        <h2 className="pricing">$ 899</h2>
                         <button className="add-to-cart">add to cart</button>
                         <div className="amount-section">
                             <button className="subtract">-</button>
@@ -40,18 +39,19 @@ export default function details() {
                         <div className="features-section">
                             <h1>features</h1>
                             <p className="first-paragraph">
-                                As the headphones all others are measured against, 
-                                the XX99 Mark I demonstrates over five decades of audio expertise, 
-                                redefining the critical listening experience. This pair of closed-back headphones 
-                                are made of industrial, aerospace-grade materials to emphasize durability at a 
-                                relatively light weight of 11 oz.
+                                These headphones have been created from durable, 
+                                high-quality materials tough enough to take anywhere. 
+                                Its compact folding design fuses comfort and minimalist style making it perfect for travel. 
+                                Flawless transmission is assured by the latest wireless technology engineered for audio synchronization with videos.
                             </p>
 
                             <p className="second-paragraph">
-                            From the handcrafted microfiber ear cushions to the robust metal headband with inner damping element,
-                            the components work together to deliver comfort and uncompromising sound. Its closed-back design delivers 
-                            up to 27 dB of passive noise cancellation, reducing resonance by reflecting sound to a dedicated absorber. 
-                            For connectivity, a specially tuned cable is included with a balanced gold connector.
+                                More than a simple pair of headphones, 
+                                this headset features a pair of built-in microphones for clear, 
+                                hands-free calling when paired with a compatible smartphone. 
+                                Controlling music and calls is also intuitive thanks to easy-access touch buttons on the earcups. 
+                                Regardless of how you use the XX59 headphones, 
+                                you can do so all day thanks to an impressive 30-hour battery life that can be rapidly recharged via USB-C.
                             </p>
                         </div>
 
@@ -82,7 +82,7 @@ export default function details() {
                             </div>
                             <div className="product-link2">
                                 <div className="link-image2"></div>
-                                <h1>xx59</h1>
+                                <h1>xx99 mark i</h1>
                                 <button>see product</button>
                             </div>
                             <div className="product-link3">
