@@ -1,0 +1,564 @@
+@use '../reset.scss';
+
+$first-color: #D87D4A;
+$second-color:#101010;
+$third-color: #F1F1F1;
+$fourth-color: #FAFAFA;
+$fifth-color: #7E7878;
+
+
+
+body{
+    .container-one{
+        height: 60px;
+
+        nav{
+            padding-left: 135px;
+    
+    
+            .navbar-brand{
+                color: $third-color;
+                font-weight: bold;
+                margin-right: 190px;
+                font-size: 25px;
+            }
+    
+            .navbar-nav{
+    
+                .nav-link{
+                    color: $third-color;
+                    font-size: 10px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    line-height: 25px;
+                    font-weight: bold;
+                    padding-right: 25px;
+                }
+    
+                .nav-link:nth-child(5){
+                    position: absolute;
+                    right: 200px;
+                }
+            }
+        }
+    
+        .divider-line{
+            border: 1px solid $second-color;
+            width: 73.5%;
+            margin-left: 145px;
+        }
+
+    }
+
+    .container-two{
+        display: flex;
+        flex-direction: column;
+        column-count: 1;
+        align-items: center;
+        margin-top: 1px;
+        height: 4600px;
+        width: 100%;
+        overflow: hidden;
+
+        .go-back{
+            border: none;
+            background: none;
+            color: $fifth-color;
+            font-size: 15px;
+            line-height: 25px;
+            position: relative;
+            bottom: 50px;
+        }
+
+        .go-back:hover{
+            text-decoration: underline;
+        }
+
+        .studio2-headphones{
+            margin: 150px 0 50px 0;
+            width: 1110px;
+            height: 560px;
+    
+            .studio2-image{
+                height: 550px;
+                width: 540px;
+                background-image: url('../../../public/img/product-zx7-speaker/desktop/image-product.jpg');
+                background-size: contain;
+                border-radius: 8px;
+                border-radius: 6px;
+            }
+    
+            .studio2-info{
+                position: relative;
+                bottom: 450px;
+                left: 650px;
+                width: 445px;
+                height: 343px;
+    
+                h2{
+                    letter-spacing: 10px;
+                    color: $first-color;
+                    font-size: 14px;
+                    margin-bottom: 20px;
+                    text-transform: uppercase;
+                }
+                h1{
+                    text-transform: uppercase;
+                    font-size: 40px;
+                    line-height: 44px;
+                    letter-spacing: 2px;
+                    font-weight: 700;
+                    margin-bottom: 30px;
+                }
+                p{
+                    color: $fifth-color;
+                    font-size: 15px;
+                    margin-bottom: 40px;
+                    line-height: 25px;
+    
+                }
+
+                .pricing{
+                    color: $second-color;
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    letter-spacing: 3px;
+                }
+
+                .amount-section{
+                    position: relative;
+                    right: 20px;
+                    bottom: 10px;
+
+                    .subtract{
+                        height: 28px;
+                        width: 20px;
+                        border: none;
+                        position: relative;
+                        left: 25px;
+                        font-weight: bold;
+                        font-size: 13px;
+                        background-color: $third-color;
+                    }
+
+                    .add{
+                        height: 18px;
+                        width: 16px;
+                        font-weight: bold;
+                        position: relative;
+                        right: 25px;
+                        font-size: 13px;
+                        border: none;
+                        background-color: $third-color;
+                    }
+
+                    input{
+                        height:48px;
+                        width: 120px;
+                        background-color: $third-color;
+                        border: none;
+                    }
+                }
+    
+                .add-to-cart{
+                    font-weight: bold;
+                    font-size:13px;
+                    color: $third-color;
+                    border: none;
+                    width: 160px;
+                    height: 45px;
+                    position: relative;
+                    top: 36px;
+                    left: 130px;
+                    text-transform: uppercase;
+                    background-color: $first-color;
+                }
+            }
+        }
+
+        .in-the-box-section{
+            width: 1110px;
+            height: 338px;
+            margin-top: -150px;
+
+
+            .features-section{
+                height: 318px;
+                width: 635px;
+                padding: 15px;
+
+
+                h1{
+                    font-weight: bold;
+                    font-size: 32px;
+                    line-height: 36px;
+                    letter-spacing: 1px;
+                    margin-bottom: 20px;
+                    text-transform: uppercase;
+                }
+
+                .first-paragraph{
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: $fifth-color;
+                    width: 585px;
+                    height: 250px;
+
+                }
+
+                .second-paragraph{
+                    font-size: 15px;
+                    line-height: 25px;
+                    width: 585px;
+                    position: relative;
+                    color: $fifth-color;
+                    bottom: 122px;
+                    height: 250px;
+                }
+            }
+
+            .items-section{
+                height: 225px;
+                width: 350px;
+                margin: 80px 0 0 20px;
+
+                h1{
+                    font-size: 32px;
+                    line-height: 35px;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                    text-transform: uppercase;
+                }
+
+                ul{
+                    li{
+                        font-size: 15px;
+                        color: $fifth-color;
+                        margin-bottom: 15px;
+
+                        span{
+                            color: $first-color;
+                            margin-right: 15px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+
+        .preview-section{
+            height: 592px;
+            width: 1110px;
+            margin-top: 130px;
+
+            .mini-column{
+
+                .gallery-pic1{
+                    height: 280px;
+                    width: 445px;
+                    background-image: url('../../../public/img/product-zx7-speaker/desktop/image-gallery-1.jpg');
+                    border-radius: 6px;
+                }
+                .gallery-pic2{
+                    height: 280px;
+                    width: 445px;
+                    margin-top: 26px;
+                    background-image: url('../../../public/img/product-zx7-speaker/desktop/image-gallery-2.jpg');
+                    border-radius: 6px;
+                }
+            }
+
+            .gallery-pic3{
+                height: 592px;
+                width: 635px;
+                margin-left: 25px;
+                background-image: url('../../../public/img/product-zx7-speaker/desktop/image-gallery-3.jpg');
+                border-radius: 6px;
+            }
+        }
+
+        .other-products{
+            width: 1110px;
+            height: 581px;
+            margin-top: 150px;
+
+
+            h1{
+                font-size: 32px;
+                font-weight: bold;
+                text-align: center;
+                line-height: 36px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                margin-bottom: 50px;
+                padding-top: 20px;
+            }
+
+            .also-like{
+                margin-left: 1px;
+                height: 471px;
+                width: 1106px;
+
+                .product-link1{
+                    height: 471px;
+                    width: 350px;
+                    margin-right: 30px;
+
+
+                    .link-image1{
+                        height: 318px;
+                        width: 347px;
+                        position: relative;
+                        right: 12px;
+                        background-image: url('../../../public/img/product-zx9-speaker/desktop/image-product.jpg');
+                        background-size: contain;
+                    }
+
+                    button{
+                        border: none;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        color: $third-color;
+                        font-size: 13px;
+                        height: 48px;
+                        width: 160px;
+                        background-color: $first-color;
+                        position: relative;
+                        bottom: 20px;
+                        left: 80px;
+                    }
+                }
+
+                .product-link2{
+                    height: 471px;
+                    width: 350px;
+                    margin-right: 26px;
+
+                    .link-image2{
+                        height: 318px;
+                        width: 347px;
+                        position: relative;
+                        right: 12px;
+                        background-image: url('../../../public/img/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg');
+                        background-size: contain;
+                        margin-right: 1px;
+                    }
+
+                    button{
+                        border: none;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        color: $third-color;
+                        font-size: 13px;
+                        height: 48px;
+                        width: 160px;
+                        background-color: $first-color;
+                        position: relative;
+                        bottom: 20px;
+                        left: 80px;
+                    }
+                }
+
+                .product-link3{
+                    height: 471px;
+                    width: 350px;
+
+                    .link-image3{
+                        height: 318px;
+                        width: 347px;
+                        position: relative;
+                        right: 12px;
+                        background-image: url('../../../public/img/product-xx59-headphones/desktop/image-product.jpg');
+                        background-size: contain;
+                        margin-right: 10px;
+                    }
+
+                    button{
+                        border: none;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        color: $third-color;
+                        font-size: 13px;
+                        height: 48px;
+                        width: 160px;
+                        background-color: $first-color;
+                        position: relative;
+                        bottom: 20px;
+                        left: 80px;
+                    }
+                }
+            }
+        }
+
+        .link-container{
+            position: relative;
+            top: 1950px;
+            width: 1230px;
+            height: 354px;
+            
+    
+            .link{
+                height: 276px;
+                width: 350px;
+                margin: 25px auto;
+    
+                .headphone-image{
+                    position: absolute;
+                    top: 80px;
+                    right: 950px;
+                }
+    
+                .speaker-image{
+                    position: absolute;
+                    top: 80px;
+                    right: 540px;
+                }
+    
+                .earphones-image{
+                    position: absolute;
+                    top: 80px;
+                    right: 140px;
+                }
+    
+                .shop-link{
+                    background-color: #F1F1F1;
+                    text-align: center;
+                    margin-top: 123px;
+                    height: 150px;
+                    width: 324px;
+                    border-radius: 6px;
+                    padding-top: 70px;
+    
+                    h1{
+                        font-weight: bold;
+                        font-size: 18px;
+                        letter-spacing: 1.29px;
+                        text-transform: uppercase;
+                        margin-bottom: 20px;
+                    }
+    
+                    a{
+                        text-decoration: none;
+                        color: $second-color;
+                        cursor: pointer;
+    
+                        h2{
+                            letter-spacing: 1px;
+                            font-size: 14px;
+                            font-weight: thin;
+                        }
+                    }
+    
+                    span{
+                        color: $first-color;
+                        font-weight: bold;
+                        font-size: 15px !important;
+                    }
+                }
+            }
+        }
+
+        .mark2-headphones{
+            width: 1110px;
+            height: 588px;
+            margin-top: 2280px;
+    
+            .mark2-info{
+                width: 445px;
+                height: 295px;
+                margin-top: 160px;
+    
+                h1{
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    line-height: 44px;
+                    letter-spacing: 1.43px;
+                    padding-bottom: 15px;
+                    font-size: 40px;
+                }
+    
+                p{
+                    font-size: 15px;
+                    line-height: 25px;
+                    font-weight: 500;
+                }
+    
+                span{
+                    color: $first-color;
+                }
+            }
+    
+            .best-gear{
+                position: absolute;
+                top: 3500px;
+                left: 680px;
+                border-radius: 6px;
+            }
+        }
+
+        .footer{
+            height: 365px;
+            width: 100%;
+            margin-top: 375px;
+            padding: 50px;
+            background-color: $second-color;
+    
+            nav{
+                .navbar-brand{
+                    color: $third-color;
+                    font-weight: bold;
+                    margin-right: 700px;
+                    font-size: 25px;
+                }
+        
+                .navbar-nav{
+        
+                    .nav-link{
+                        color: $third-color;
+                        font-size: 10px;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        line-height: 25px;
+                        font-weight: bold;
+                        padding-right: 25px;
+                    }
+                }
+            }
+    
+            .conclusion{
+                color: #7E7878;
+                font-size: 15px;
+                line-height: 25px;
+                width: 500px;
+                margin: 40px 0 60px 0;
+            }
+    
+            .copyright{
+                color: #7E7878;
+                font-weight: bold;
+                font-size: 15px;
+            }
+    
+            .social-media{
+                width: 260px;
+                height: 50px;
+                position: absolute;
+                top: 4530px;
+    
+                
+    
+                a{
+                    padding-right: 25px;
+                    color: $third-color;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}

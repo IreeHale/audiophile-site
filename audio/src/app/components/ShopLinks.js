@@ -39,7 +39,7 @@ export default function ShopLinks() {
                         alt="speaker link photo"
                     />
                     <h1>earphones</h1>
-                    <a className="quick-link"><h2>Shop <span>&gt;</span></h2></a>
+                    <a className="quick-link" href="/earphones"><h2>Shop <span>&gt;</span></h2></a>
                 </div>
             </div>
         </div>
