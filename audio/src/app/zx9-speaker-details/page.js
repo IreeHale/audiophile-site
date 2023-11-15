@@ -16,7 +16,7 @@ export default function details() {
         </div>
         <div className="container-two">
             <div className="studio2-headphones">
-            <button className="go-back">Go Back</button>
+            <a href="/speakers"><button className="go-back">Go Back</button></a>
                 <div className="studio2-image"></div>
                     <div className="studio2-info">
                         <h2>new product</h2>
@@ -80,17 +80,17 @@ export default function details() {
                             <div className="product-link1">
                                 <div className="link-image1"></div>
                                 <h1>zx7 speaker</h1>
-                                <button>see product</button>
+                                <a href="/zx7-speaker-details"><button>see product</button></a>
                             </div>
                             <div className="product-link2">
                                 <div className="link-image2"></div>
                                 <h1>xx99 mark i</h1>
-                                <button>see product</button>
+                                <a href="xx99-mark1-details"><button>see product</button></a>
                             </div>
                             <div className="product-link3">
                                 <div className="link-image3"></div>
                                 <h1>xx59</h1>
-                                <button>see product</button>
+                                <a href="/xx59-details"><button>see product</button></a>
                             </div>
                         </div>
                     </div>

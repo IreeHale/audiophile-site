@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles1.modules.scss'
+import './styles2.modules.scss'
 
 
 //Components
@@ -16,18 +16,17 @@ export default function details() {
         </div>
         <div className="container-two">
             <div className="studio2-headphones">
-            <a className="go-back" href="/headphones">Go Back</a>
+            <a href="/speakers"><button className="go-back">Go Back</button></a>
                 <div className="studio2-image"></div>
                     <div className="studio2-info">
-                        <h2>new product</h2>
-                        <h1>xx99 mark II headphones</h1>
+                        <h1>zx7 speaker</h1>
                         <p>
-                            The new XX99 Mark II is the pinnacle of pristine audio. 
-                            It redefines your premium headphones experience by reproducing 
-                            the balanced depth and precision of studio-quality sound.
+                            Stream high quality sound wirelessly with minimal to no loss. 
+                            The ZX7 speaker uses high-end audiophile components that represents 
+                            the top of the line powered speakers for home or studio use.
                         </p>
 
-                        <h2 className="pricing">$ 2,999</h2>
+                        <h2 className="pricing">$ 3,500</h2>
                         <button className="add-to-cart">add to cart</button>
                         <div className="amount-section">
                             <button className="subtract">-</button>
@@ -40,30 +39,29 @@ export default function details() {
                         <div className="features-section">
                             <h1>features</h1>
                             <p className="first-paragraph">
-                                Featuring a genuine leather head strap and premium earcups, 
-                                these headphones deliver superior comfort for those who like to enjoy endless listening. 
-                                It includes intuitive controls designed for any situation. Whether you’re taking a business call or just in your own personal space, \
-                                the auto on/off and pause features ensure that you’ll never miss a beat.
+                                Reap the advantages of a flat diaphragm tweeter cone. 
+                                This provides a fast response rate and excellent high frequencies that 
+                                lower tiered bookshelf speakers cannot provide. The woofers are made from aluminum that 
+                                produces a unique and clear sound. XLR inputs allow you to connect to a mixer for more advanced usage.
                             </p>
 
                             <p className="second-paragraph">
-                                The advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio world on your terms. 
-                                It lets you enjoy your audio in peace, 
-                                but quickly interact with your surroundings when you need to. 
-                                Combined with Bluetooth 5.0 compliant connectivity and 17 hour battery life, 
-                                the XX99 Mark II headphones gives you superior sound, cutting-edge technology, 
-                                and a modern design aesthetic.
+                                The ZX7 speaker is the perfect blend of stylish design and high performance. 
+                                It houses an encased MDF wooden enclosure which minimises acoustic resonance. 
+                                Dual connectivity allows pairing through bluetooth or traditional optical and RCA input. 
+                                Switch input sources and control volume at your finger tips with the included wireless remote. 
+                                This versatile speaker is equipped to deliver an authentic listening experience.
                             </p>
                         </div>
 
                         <div className="items-section">
                         <h1>in the box</h1>
                             <ul>
-                                <li><span>1x</span> Headphone Unit</li>
-                                <li><span>2x</span> Replacement Earcups</li>
+                                <li><span>2x</span> Speaker Unit</li>
+                                <li><span>2x</span> Speaker Cloth Panel</li>
                                 <li><span>1x</span> User Manual</li>
-                                <li><span>1x</span> 3.5mm 5m Audio Cable</li>
-                                <li><span>1x</span> Travel Bag</li>
+                                <li><span>1x</span> 3.5mm 7.5m Audio Cable</li>
+                                <li><span>1x</span> 7.5m Optical Cable</li>
                             </ul>
                         </div>
                     </div>
@@ -79,18 +77,18 @@ export default function details() {
                         <div className="also-like row">
                             <div className="product-link1">
                                 <div className="link-image1"></div>
-                                <h1>xx99 mark i</h1>
-                                <button>see product</button>
+                                <h1>zx9 speaker</h1>
+                                <a href="/zx9-speaker-details"><button>see product</button></a>
                             </div>
                             <div className="product-link2">
                                 <div className="link-image2"></div>
-                                <h1>xx59</h1>
-                                <button>see product</button>
+                                <h1>xx99 mark i</h1>
+                                <a href="/xx99-mark1-details"><button>see product</button></a>
                             </div>
                             <div className="product-link3">
                                 <div className="link-image3"></div>
-                                <h1>zx9 speaker</h1>
-                                <button>see product</button>
+                                <h1>xx59</h1>
+                                <a href="/xx59-details"><button>see product</button></a>
                             </div>
                         </div>
                     </div>

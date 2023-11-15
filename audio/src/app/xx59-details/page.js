@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles2.modules.scss'
+import './styles3.modules.scss'
 
 
 //Components
@@ -16,17 +16,17 @@ export default function details() {
         </div>
         <div className="container-two">
             <div className="studio2-headphones">
-            <button className="go-back">Go Back</button>
+            <a className="go-back" href="/headphones">Go Back</a>
                 <div className="studio2-image"></div>
                     <div className="studio2-info">
-                        <h1>zx7 speaker</h1>
+                        <h1>xx59 headphones</h1>
                         <p>
-                            Stream high quality sound wirelessly with minimal to no loss. 
-                            The ZX7 speaker uses high-end audiophile components that represents 
-                            the top of the line powered speakers for home or studio use.
+                            Enjoy your audio almost anywhere and customize it to your specific tastes 
+                            with the XX59 headphones. The stylish yet durable versatile wireless headset 
+                            is a brilliant companion at home or on the move.
                         </p>
 
-                        <h2 className="pricing">$ 3,500</h2>
+                        <h2 className="pricing">$ 899</h2>
                         <button className="add-to-cart">add to cart</button>
                         <div className="amount-section">
                             <button className="subtract">-</button>
@@ -39,29 +39,29 @@ export default function details() {
                         <div className="features-section">
                             <h1>features</h1>
                             <p className="first-paragraph">
-                                Reap the advantages of a flat diaphragm tweeter cone. 
-                                This provides a fast response rate and excellent high frequencies that 
-                                lower tiered bookshelf speakers cannot provide. The woofers are made from aluminum that 
-                                produces a unique and clear sound. XLR inputs allow you to connect to a mixer for more advanced usage.
+                                These headphones have been created from durable, 
+                                high-quality materials tough enough to take anywhere. 
+                                Its compact folding design fuses comfort and minimalist style making it perfect for travel. 
+                                Flawless transmission is assured by the latest wireless technology engineered for audio synchronization with videos.
                             </p>
 
                             <p className="second-paragraph">
-                                The ZX7 speaker is the perfect blend of stylish design and high performance. 
-                                It houses an encased MDF wooden enclosure which minimises acoustic resonance. 
-                                Dual connectivity allows pairing through bluetooth or traditional optical and RCA input. 
-                                Switch input sources and control volume at your finger tips with the included wireless remote. 
-                                This versatile speaker is equipped to deliver an authentic listening experience.
+                                More than a simple pair of headphones, 
+                                this headset features a pair of built-in microphones for clear, 
+                                hands-free calling when paired with a compatible smartphone. 
+                                Controlling music and calls is also intuitive thanks to easy-access touch buttons on the earcups. 
+                                Regardless of how you use the XX59 headphones, 
+                                you can do so all day thanks to an impressive 30-hour battery life that can be rapidly recharged via USB-C.
                             </p>
                         </div>
 
                         <div className="items-section">
                         <h1>in the box</h1>
                             <ul>
-                                <li><span>2x</span> Speaker Unit</li>
-                                <li><span>2x</span> Speaker Cloth Panel</li>
+                                <li><span>1x</span> Headphone Unit</li>
+                                <li><span>2x</span> Replacement Earcups</li>
                                 <li><span>1x</span> User Manual</li>
-                                <li><span>1x</span> 3.5mm 7.5m Audio Cable</li>
-                                <li><span>1x</span> 7.5m Optical Cable</li>
+                                <li><span>1x</span> 3.5mm 5m Audio Cable</li>
                             </ul>
                         </div>
                     </div>
@@ -77,18 +77,18 @@ export default function details() {
                         <div className="also-like row">
                             <div className="product-link1">
                                 <div className="link-image1"></div>
-                                <h1>zx9 speaker</h1>
-                                <button>see product</button>
+                                <h1>xx99 mark ii</h1>
+                                <a href="xx99-mark2-details"><button>see product</button></a>
                             </div>
                             <div className="product-link2">
                                 <div className="link-image2"></div>
                                 <h1>xx99 mark i</h1>
-                                <button>see product</button>
+                                <a href="xx99-mark1-details"><button>see product</button></a>
                             </div>
                             <div className="product-link3">
                                 <div className="link-image3"></div>
-                                <h1>xx59</h1>
-                                <button>see product</button>
+                                <h1>zx9 speaker</h1>
+                                <a href="zx9-speaker-details"><button>see product</button></a>
                             </div>
                         </div>
                     </div>
