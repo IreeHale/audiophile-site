@@ -22,7 +22,7 @@ export default function Home() {
                 exceptional build quality made for the 
                 passionate music enthusiast.
               </p>
-              <button>see product</button>
+              <a href="/xx99-mark2-details"><button>see product</button></a>
             </div>
             <Image 
               src="/image-hero.jpg" 
@@ -46,20 +46,20 @@ export default function Home() {
           <div className="speaker-cta">
             <h1>zx9 speaker</h1>
             <p>Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
-            <button>see product</button>
+            <a href="/zx9-speaker-details"><button>see product</button></a>
           </div>
         </div>
         <div className="second-speaker">
           <div className="speaker2-section">
             <h1>zx7 speaker</h1>
-            <button>see product</button>
+            <a href="/zx7-speaker-details"><button>see product</button></a>
           </div>
         </div>
         <div className="earphones-section row">
           <div className="earphones-image"></div>
           <div className="earphones-cta">
             <h1>yx1 earphones</h1>
-            <button>see product</button>
+            <a href="/yx1-earphones-details"><button>see product</button></a>
           </div>
         </div>
         <BestGear />

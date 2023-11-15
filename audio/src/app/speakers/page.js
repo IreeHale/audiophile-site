@@ -26,7 +26,7 @@ export default function speakers() {
                             truly wireless connectivity - creating new possibilities for
                             more pleasing and practical audio setups.
                           </p>
-                          <button>see product</button>
+                          <a href="/zx9-speaker-details"><button>see product</button></a>
                       </div>
                   </div>
                   <div className="studio1-headphones">
@@ -37,7 +37,7 @@ export default function speakers() {
                           bookshelf speaker uses high-end audiophile components that
                           represents the top of the line powered speakers for home or studio use.
                       </p>
-                      <button>see product</button>
+                      <a href="/zx7-speaker-details"><button>see product</button></a>
                     </div>
                   <div className="studio1-image"></div>
                 </div>

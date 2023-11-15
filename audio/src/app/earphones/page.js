@@ -27,7 +27,7 @@ export default function earphones() {
                             new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in
                             noisy environments with it's active noise cancellation feature.
                         </p>
-                        <button>see product</button>
+                        <a href="/yx1-earphones-details"><button>see product</button></a>
                     </div>
                 </div>
                 <ShopLinks />

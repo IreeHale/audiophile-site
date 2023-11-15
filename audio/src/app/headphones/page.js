@@ -25,7 +25,7 @@ return (
                             It redefines your premium headphones experience by reproducing 
                             the balanced depth and precision of studio-quality sound.
                         </p>
-                        <button>see product</button>
+                        <a href="/xx99-mark2-details"><button>see product</button></a>
                     </div>
                 </div>
             <div className="studio1-headphones">
@@ -38,7 +38,7 @@ return (
                         and music aficionados 
                         alike in studios and on the go.
                     </p>
-                    <button>see product</button>
+                    <a href="/xx99-mark1-details"><button>see product</button></a>
                 </div>
                 <div className="studio1-image"></div>
             </div>
@@ -49,7 +49,7 @@ return (
                     <p>Enjoy your audio almost anywhere and customize it to your
                     specific tastes with the XX59 headphones. The stylish yet durable versatile
                     wireless headset is a brilliant companion at home or on the move.</p>
-                    <button>see product</button>
+                    <a href="/xx59-details"><button>see product</button></a>
                 </div>
             </div>
 
