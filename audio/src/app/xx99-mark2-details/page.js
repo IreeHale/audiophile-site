@@ -8,6 +8,7 @@ import ShopLinks from '../components/ShopLinks'
 import BestGear from '../components/BestGear'
 import Footer from '../components/Footer'
 
+
 export default function details() {
   return (
     <body>
@@ -31,7 +32,7 @@ export default function details() {
                         <button className="add-to-cart">add to cart</button>
                         <div className="amount-section">
                             <button className="subtract">-</button>
-                            <input />
+                            <input type="number" />
                             <button className="add">+</button>
                         </div>
                     </div>
